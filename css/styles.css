@@ -1,0 +1,117 @@
+body, footer {
+    font-family: 'Roboto', 'Noto Sans', sans-serif;
+    color: #212121;
+}
+
+.webstudio-logo-header, .webstudio-logo-footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+   text-decoration: none; 
+}
+
+.web-logo-header, .web-logo-footer {
+color: #2196F3;
+}
+
+.studio-logo-header {
+    color: #000;
+}
+.studio-logo-footer, .contacts-footer-mail, .contacts-footer-tel {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #F5F4FA;
+    border:none;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    background-color: #2196F3;
+}
+ 
+.link-header-studio, .link-header-portfolio, .link-header-contacts {
+    color:#212121;
+}
+
+.contacts-header-mail, .contacts-header-tel {
+    color: #757575
+}
+
+.link-header-studio:hover, .link-header-portfolio:hover, .link-header-contacts:hover, .contacts-header-mail:hover, .contacts-header-tel:hover, .contacts-footer-mail:hover, .contacts-footer-tel:hover, .link-header-studio:focus, .link-header-portfolio:focus, .link-header-contacts:focus, .contacts-header-mail:focus, .contacts-header-tel:focus, .contacts-footer-mail:focus, .contacts-footer-tel:focus {
+    color:#2196F3;
+}
+
+/*Studio*/
+
+.decides-order {
+    background-color: #2F303A;
+}
+
+.effective-decides {
+    font-size: 44;
+    line-height: 60;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.button-order {
+    font-size: 16;
+    line-height: 30;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.studio-list-title {
+    font-size: 14;
+    line-height: 16;
+    font-weight: 700;
+}
+
+.studio-list-text {
+    font-size: 14;
+    line-height: 24;
+    color: #757575;
+}
+
+.our-activity, .our-team {
+    font-size: 36;
+    line-height: 42;
+    font-weight: 700; 
+}
+
+.our-team-employee {
+    font-size: 16;
+    line-height: 19;
+    font-weight: 500;
+}
+
+.our-team-position {
+    font-size: 16;
+    line-height: 19;
+    color: #757575;
+    font-weight: 400;
+}
+
+/*Portfolio*/
+
+.portfolio-buttons {
+    font-size: 16;
+    line-height: 26;
+    font-weight: 500;
+}
+
+.portfolio-project {
+    font-size: 18;
+    line-height: 36;
+    font-weight: 700;
+}
+
+.portfolio-project-type {
+    font-size: 16;
+    line-height: 30;
+    color: #757575;
+    font-weight: 400;   
+}
