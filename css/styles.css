@@ -1,6 +1,7 @@
 body, footer {
     font-family: 'Roboto', 'Noto Sans', sans-serif;
     color: #212121;
+    background-color: #ECECEC;
 }
 
 .webstudio-logo-header, .webstudio-logo-footer {
@@ -42,6 +43,22 @@ button:hover, button:focus {
 
 .link-header-studio:hover, .link-header-portfolio:hover, .link-header-contacts:hover, .contacts-header-mail:hover, .contacts-header-tel:hover, .contacts-footer-mail:hover, .contacts-footer-tel:hover, .link-header-studio:focus, .link-header-portfolio:focus, .link-header-contacts:focus, .contacts-header-mail:focus, .contacts-header-tel:focus, .contacts-footer-mail:focus, .contacts-footer-tel:focus {
     color:#2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-our-team {
+   background-color: #F5F4FA; 
+}
+
+.footer {
+   background-color: #2F303A; 
+}
+
+.address {
+    color: #FFFFFF;
 }
 
 /*Studio*/
