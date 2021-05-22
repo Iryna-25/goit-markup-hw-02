@@ -1,31 +1,38 @@
 body, footer {
     font-family: 'Roboto', 'Noto Sans', sans-serif;
-    color: #212121;
-    
     font-weight: 400;
-}
-
-.webstudio-logo-header, .webstudio-logo-footer {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
 
 :root {
     --main-text-color: #757575;
     --main-title-color: #212121;
     --contacts-footer-color: rgb(255, 255, 255, 0.6);
-    --footer-bg-color: #2F303A
+    --footer-bg-color: #2F303A;
     --bg-color: #ECECEC;
     --background-buttons-color: #F5F4FA;
     --main-text-white-color: #FFFFFF;
     --studio-logo-color: #000000;
     --hover-focus-color: #2196F3;
-    --effective-decides-color: #2F303A;
 }
 
-.links-header .link-header-studio.current {
-    color: var(--hover-focus-color);
+.webstudio-logo-header, .webstudio-logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--hover-focus-color)
+}
+
+.links-header {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--main-title-color);
+    line-height: 1.2;
 }
 
 .links-header .link-header-studio.current, .link-header-portfolio.current {
@@ -34,10 +41,6 @@ body, footer {
 
 a {
    text-decoration: none; 
-}
-
-.web-logo-header, .web-logo-footer {
-    color: var(--hover-focus-color);
 }
 
 .studio-logo-header {
@@ -49,34 +52,41 @@ a {
 }
 
 .contacts-footer-mail, .contacts-footer-tel {
-   font-size: 14px;
-   line-height: 1.2; 
-   color:  var(--contacts-footer-color); 
+   font-family: inherit;
+   font-style: medium;
+   font-weight: inherit;
+   font-size: inherit;
+   line-height: inherit;
+   color: var(--contacts-footer-color); 
 }
 
 button {
     background-color: var(--background-buttons-color);
     border: none;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--main-title-color);
+
 }
 
 button:hover, button:focus {
     background-color: var(--hover-focus-color);
 }
- 
-.links-header {
-    font-size: 14px;
-    color: var(--main-title-color);
-    line-height: 1.1;    
-    font-weight: 500;
+
+a:visited {
+    color: inherit;
 }
 
 .contacts-header-mail, .contacts-header-tel {
+    font-family: inherit;
     font-size: 14px;
     color: var(--main-text-color);
     line-height: 1.1;    
     font-weight: 500;
-
+    line-height: 1.2;
 }
 
 .link-header-studio:hover, .link-header-portfolio:hover, .link-header-contacts:hover, .contacts-header-mail:hover, .contacts-header-tel:hover, .contacts-footer-mail:hover, .contacts-footer-tel:hover, .link-header-studio:focus, .link-header-portfolio:focus, .link-header-contacts:focus, .contacts-header-mail:focus, .contacts-header-tel:focus, .contacts-footer-mail:focus, .contacts-footer-tel:focus {
@@ -87,15 +97,15 @@ ul {
     list-style: none;
 }
 
-.section-our-team {
-    background-color: var(--background-buttons-color); 
-}
+
 
 .footer {
+    font-family: inherit;
     background-color: var(--footer-bg-color);
 }
 
 .address {
+    font-family: inherit;
     font-style: normal;
     font-size: 14px;
     color: var(--main-text-white-color); 
@@ -109,22 +119,25 @@ ul {
 }
 
 .effective-decides {
+    font-family: inherit;
     font-size: 44px;
     line-height: 1.4;
     color: var(--main-text-white-color);
     font-weight: 900;
-    background-color: var(--effective-decides-color); 
 }
 
 .button-order {
+    font: inherit;
     font-size: 16px;
     line-height: 1.9;
     color: var(--main-text-white-color);
     font-weight: 700;
     background-color: var(--hover-focus-color);
+    letter-spacing: 0.03em;
 }
 
 .studio-list-title {
+    font-family: inherit;
     font-size: 14px;
     line-height: 1.2;
     font-weight: 700;
@@ -132,19 +145,27 @@ ul {
 }
 
 .studio-list-text {
+    font-family: inherit;
     font-size: 14px;
     line-height: 1.7;
+    font-weight: 400;
     color: var(--main-text-color);
 }
 
 .our-activity, .our-team {
+    font-family: inherit;
     font-size: 36px;
     line-height: 1.2;
     font-weight: 700;
     color: var(--main-title-color); 
 }
 
+.section-our-team {
+    background-color: var(--background-buttons-color); 
+}
+
 .our-team-employee {
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 500;
@@ -152,14 +173,17 @@ ul {
 }
 
 .our-team-position {
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.2;
+    font-weight: 400;
     color: var(--main-text-color);
 }
 
 /*Portfolio*/
 
 .portfolio-buttons {
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.6;
     font-weight: 500;
@@ -167,6 +191,7 @@ ul {
 }
 
 .portfolio-project {
+    font-family: inherit;
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
@@ -174,6 +199,7 @@ ul {
 }
 
 .portfolio-project-type {
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.9;
     color: var(--main-text-color);
